@@ -11,10 +11,10 @@ nnoremap <silent> ;r <cmd>Telescope live_grep<cr>
 nnoremap <silent> \\ <cmd>Telescope buffers<cr>
 nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
 
-map <C-t> :tabnew<cr>
-nnoremap <silent> H :BufferPrevious<CR>
-nnoremap <silent> L :BufferNext<CR>
-nnoremap <silent>    <C-w> :BufferClose<CR>
+map <C-t> :enew<cr>
+nnoremap <silent> H :bprevious!<CR>
+nnoremap <silent> L :bnext!<CR>
+nnoremap <silent>    <C-w> :bp <BAR> bd #<Enter>
 nnoremap <silent>    <A-<> :BufferMovePrevious<CR>
 nnoremap <silent>    <A->> :BufferMoveNext<CR>
 " <F2> 창이동
