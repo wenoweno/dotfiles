@@ -21,7 +21,7 @@ nnoremap <silent>    <A->> :BufferMoveNext<CR>
 
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
-vmap <silent> <F8> <plug>NERDCommenterToggle
+vmap <silent> <C-_> <plug>NERDCommenterToggle
 nmap <silent> <C-_> <plug>NERDCommenterToggle
 
 au BufNewFile,BufRead *.prisma setfiletype graphql
