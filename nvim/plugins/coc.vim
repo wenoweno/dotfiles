@@ -50,7 +50,7 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 
 " coc config
 let g:coc_global_extensions = [
-  \ 'coc-snippets',
+  "\ 'coc-snippets',
   \ 'coc-pairs',
   \ 'coc-tsserver',
   \ 'coc-eslint', 

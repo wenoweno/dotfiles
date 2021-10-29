@@ -12,5 +12,7 @@ source $HOME/.config/nvim/plugins/treesitter.vim
 source $HOME/.config/nvim/plugins/rainbow.vim
 source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/telescope.vim
+source $HOME/.config/nvim/plugins/floaterm.vim
+source $HOME/.config/nvim/plugins/fugitive.vim
 
 source $HOME/.config/nvim/settings.vim

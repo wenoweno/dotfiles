@@ -21,7 +21,23 @@ nnoremap <silent>    <A->> :BufferMoveNext<CR>
 
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
-vmap ++ <plug>NERDCommenterToggle
-nmap ++ <plug>NERDCommenterToggle
+vmap <silent> <F8> <plug>NERDCommenterToggle
+nmap <silent> <C-_> <plug>NERDCommenterToggle
 
 au BufNewFile,BufRead *.prisma setfiletype graphql
+
+nnoremap = :res +5 <Enter> 
+nnoremap - :res -5 <Enter>
+nnoremap + :vertical res +5 <Enter> 
+nnoremap _ :vertical res -5 <Enter>
+
+nnoremap <C-x> :noh <Enter>
+
+" remap bindings
+nnoremap Y y$
+
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap J mzJ`z
+
+

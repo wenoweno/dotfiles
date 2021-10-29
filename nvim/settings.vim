@@ -45,3 +45,6 @@ highlight DiffChange cterm=bold ctermfg=10 ctermbg=10 gui=none guifg=none guibg=
 highlight DiffText   cterm=bold ctermfg=10 ctermbg=10 gui=none guifg=none guibg=DarkGreen
 
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
+
+let g:github_enterprise_urls = ['https://oss.navercorp.com', 'http://oss.navercorp.com']
+
